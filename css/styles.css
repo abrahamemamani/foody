@@ -7,10 +7,14 @@
   font-family: 'Kaushan Script', cursive;
   font-size: 1.5em; }
 
-.img-thumbnail {
-  border: 1.5px solid #EA5252; }
+.site-logo {
+  font-size: 3em;
+  color: #fff; }
 
 .site-main-img {
   height: 200px; }
+
+.img-thumbnail {
+  border: 1.5px solid #EA5252; }
 
 /*# sourceMappingURL=styles.css.map */
