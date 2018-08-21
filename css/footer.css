@@ -1,0 +1,27 @@
+.site-footer {
+  background-color: #0E0F11;
+  color: #fff;
+  padding: 55px 0 100px 0; }
+  .site-footer-img {
+    height: 50px; }
+
+.bar-bottom {
+  background-color: #141414;
+  color: #fff;
+  padding: 10px 0; }
+  .bar-bottom .copy {
+    display: inline; }
+
+.group-icons-inline .icon-link {
+  color: #fff; }
+.group-icons-inline li {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  cursor: pointer; }
+
+/*# sourceMappingURL=footer.css.map */

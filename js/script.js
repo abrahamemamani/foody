@@ -1,0 +1,1 @@
+$("[data-component-name~='page-to-page']").initTo();

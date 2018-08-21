@@ -1,0 +1,18 @@
+.vegetarian-food-wrapper {
+  background-color: #EFEFEF;
+  padding: 40px 0; }
+
+.to-list {
+  list-style-type: none; }
+  .to-list-item {
+    display: inline-block;
+    position: relative;
+    padding: 7px 10px;
+    margin-top: 1px;
+    margin-bottom: .5px;
+    cursor: pointer; }
+    .to-list-item.active {
+      color: #e73b3b;
+      border-bottom: 1px dashed #EA5252; }
+
+/*# sourceMappingURL=vegetarian-food.css.map */
