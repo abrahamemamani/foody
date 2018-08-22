@@ -1,16 +1,25 @@
+.site-title, .site-logo {
+  font-family: 'Great Vibes', cursive; }
+
 .site-title {
   color: #e73b3b;
-  font-family: 'Great Vibes', cursive;
   font-size: 3.5em; }
 
 .site-subtitle {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 1.5em; }
+  font-family: 'Kaushan Script', cursive; }
+
+.site-logo {
+  color: #fff;
+  cursor: pointer;
+  font-size: 3em; }
+  .site-logo:hover {
+    color: #fff;
+    text-decoration: none; }
+
+.site-main__img {
+  height: 200px; }
 
 .img-thumbnail {
   border: 1.5px solid #EA5252; }
-
-.site-main-img {
-  height: 200px; }
 
 /*# sourceMappingURL=styles.css.map */

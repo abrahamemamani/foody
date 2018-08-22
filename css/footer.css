@@ -2,7 +2,7 @@
   background-color: #0E0F11;
   color: #fff;
   padding: 55px 0 100px 0; }
-  .site-footer-img {
+  .site-footer__img {
     height: 50px; }
 
 .bar-bottom {
@@ -12,9 +12,9 @@
   .bar-bottom .copy {
     display: inline; }
 
-.group-icons-inline .icon-link {
+.group-icons-inline .group-icons__link {
   color: #fff; }
-.group-icons-inline li {
+.group-icons-inline .group-icons__item {
   display: inline-block;
   height: 35px;
   width: 35px;

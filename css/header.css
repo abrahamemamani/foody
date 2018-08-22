@@ -1,9 +1,37 @@
+.site-header {
+  -webkit-box-shadow: 0 0 3px 0 #666;
+          box-shadow: 0 0 3px 0 #666; }
+
 .bar-top {
-  background-color: rgba(0, 0, 0, 0.2);
   display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
   width: 100%;
-  color: #fff; }
-  .bar-top p {
+  height: 100%;
+  padding: 10px 0; }
+  @media screen and (min-width: 400px) {
+    .bar-top {
+      height: initial;
+      background-color: rgba(0, 0, 0, 0.4); } }
+  @media screen and (min-width: 576px) {
+    .bar-top {
+      padding: 0; } }
+  .bar-top__contact {
     margin-bottom: 0; }
+
+.site-banner__container {
+  display: none;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border-radius: 10px; }
+  @media screen and (min-width: 768px) {
+    .site-banner__container {
+      display: block; } }
+.site-banner__text {
+  display: none; }
+  @media screen and (min-width: 992px) {
+    .site-banner__text {
+      display: block; } }
 
 /*# sourceMappingURL=header.css.map */

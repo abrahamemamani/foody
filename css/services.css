@@ -3,7 +3,7 @@
   display: inline-block;
   width: 100%;
   padding: 40px 0;
-  -webkit-box-shadow: 0px 7px 17px -10px #666;
-          box-shadow: 0px 7px 17px -10px #666; }
+  -webkit-box-shadow: 0 1.5px 5px -1px #666;
+          box-shadow: 0 1.5px 5px -1px #666; }
 
 /*# sourceMappingURL=services.css.map */

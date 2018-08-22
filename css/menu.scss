@@ -1,0 +1,28 @@
+$color: #e73b3b;
+.site-menu{
+    padding: 15px 0;
+    background-color: #EFEFEF;
+    &__item{
+        list-style-type: none;
+        &:first-child .site-menu__link{
+            border-left: none;
+        }
+        &:last-child .site-menu__link{
+            border-right: none;
+        }
+    }
+    &__link{
+        display: inline-block;
+        color: $color;
+        padding: 7px 25px;
+        border-right: 1px solid darken(#fff, 19%);
+        border-left: 1px solid #fff;
+        transition: all .3s ease-in-out;
+        text-shadow: 1px 1px 0px lighten(#000, 43%);
+        &:hover{
+            text-decoration: none;
+            color: #fff;
+            background-color: $color;
+        }
+    }
+}

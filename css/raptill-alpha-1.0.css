@@ -66,8 +66,8 @@ ul, figure {
 .p-xy-center {
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); }
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%); }
 .p-x-center {
   top: 0;
   left: 50%;
